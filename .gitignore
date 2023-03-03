@@ -1,2 +1,4 @@
 /target
 Cargo.lock
+db/sqlx/db.sqlite-wal
+db/sqlx/db.sqlite-shm
