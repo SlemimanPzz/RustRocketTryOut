@@ -2,8 +2,7 @@
 #[macro_use] extern crate rocket;
 use rocket::State;
 use std::sync::Mutex;
-use rocket_db_pools::{Database, Connection};
-use rocket_db_pools::sqlx::{self, Row, database};
+use rocket_db_pools::{Database};
 
 
 #[path="./db/db.rs"]

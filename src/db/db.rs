@@ -1,6 +1,5 @@
-use rocket::futures::{TryFutureExt, TryStreamExt};
 use rocket_db_pools::{Database, Connection};
-use rocket_db_pools::sqlx::{self, Row, database};
+use rocket_db_pools::sqlx::{self, Row};
 use rocket::fairing::AdHoc;
 
 
